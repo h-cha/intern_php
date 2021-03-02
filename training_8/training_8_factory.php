@@ -29,6 +29,12 @@ class Car{
 $blue_car = Car::createBlueCar('hanako');
 echo $blue_car->getOwner() . " : ";
 echo $blue_car->getColor() . "\n";
+// owner変更できる
+echo "ownerを変更する" . "\n";
+$blue_car = Car::createBlueCar('yoshiko');
+echo $blue_car->getOwner() . " : ";
+echo $blue_car->getColor() . "\n";
+echo "\n";
 
 $red_car = Car::createRedCar('tarou');
 echo $red_car->getOwner() . " : ";
