@@ -1,5 +1,6 @@
 <?
 // オブジェクトについて理解し、変数に代入することができる、上書きできる
+// ownerは変更できるがcolorは変更できないようにする
 // Factory Method パターン
 class Car{
     private $owner = "";

@@ -1,5 +1,6 @@
 <?
 // オブジェクトについて理解し、変数に代入することができる、上書きできる
+// ownerは変更できるがcolorは変更できないようにする
 class Car{
     private $owner = "";
     private $color;
@@ -18,12 +19,23 @@ class Car{
     }
 }
 
+$a = new Car('tarou', 'blue');
+echo $a->getOwner() . " : ";
+echo $a->getColor() . "\n";
+// owner変更できる
+$a->setOwner('jirou');
+echo "ownerを変更する" . "\n";
+echo $a->getOwner() . " : ";
+echo $a->getColor() . "\n";
+echo "\n";
+
 $b = new Car('hanako', 'blue');
-echo $b->getOwner() . "\n";
+echo $b->getOwner() . " : ";
 echo $b->getColor() . "\n";
 
-// 色が変わってしまった
+// colorが変わってしまった
 $b->__construct('hanako', 'red');
-echo $b->getColor(); 
-
+echo "colorを変更する" . "\n";
+echo $b->getOwner() . " : ";
+echo $b->getColor() . "\n";
 ?>
