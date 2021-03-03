@@ -1,4 +1,4 @@
-<?
+<?php
 // 関数の基本概念(引数、戻り値)を理解している
 echo "最大公約数";
 echo "\n";
@@ -20,5 +20,3 @@ function my_lcm($x, $y){
 }
 echo my_lcm(12, 18);
 echo "\n";
-
-?>
