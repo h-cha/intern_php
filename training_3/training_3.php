@@ -1,4 +1,4 @@
-<?
+<?php
 // 一般的な制御文(if、for、foreach、while文など)が利用できる
 
 // if文
@@ -66,5 +66,3 @@ while ($count++ < 10){
     echo "\n";
 }
 echo "\n";
-
-?>
