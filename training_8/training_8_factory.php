@@ -1,4 +1,4 @@
-<?
+<?php
 // オブジェクトについて理解し、変数に代入することができる、上書きできる
 // ownerは変更できるがcolorは変更できないようにする
 // Factory Method パターン
@@ -39,4 +39,3 @@ echo "\n";
 $red_car = Car::createRedCar('tarou');
 echo $red_car->getOwner() . " : ";
 echo $red_car->getColor() . "\n";
-?>

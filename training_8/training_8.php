@@ -1,4 +1,4 @@
-<?
+<?php
 // オブジェクトについて理解し、変数に代入することができる、上書きできる
 // ownerは変更できるがcolorは変更できないようにする
 class Car{
@@ -38,4 +38,3 @@ $b->__construct('hanako', 'red');
 echo "colorを変更する" . "\n";
 echo $b->getOwner() . " : ";
 echo $b->getColor() . "\n";
-?>
