@@ -1,4 +1,4 @@
-<?
+<?php
 //組み込み関数を利用できる
 print "2020/03/09のように入力してください。" . "\n";
 $stdin = trim(fgets(STDIN));
@@ -14,4 +14,3 @@ if (strpos($stdin, "/") != false){
 }else{
     print "/で日付を区切って表示してください";
 }
-?>
