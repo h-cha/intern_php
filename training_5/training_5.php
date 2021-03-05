@@ -1,4 +1,4 @@
-<?
+<?php
 function merge_str($x, $y){
     $arr_x = str_split($x);
     $arr_y = str_split($y);
@@ -27,5 +27,3 @@ function merge_str($x, $y){
 }
 echo merge_str("Hello", "World!!");
 echo "\n";
-
-?>
